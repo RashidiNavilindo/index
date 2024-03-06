@@ -1,0 +1,65 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+body{
+   height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: snow;
+background-image: url(Rr.jpg.jpg);
+background-position: center;
+background-size: cover;
+
+}
+
+
+.form{
+   display: flex;
+   flex-direction: column;
+   width: 600px;
+   height: 400px;
+   padding: 20px;
+   border-radius: 20px;
+   background-image:  url(Ru.pjg.jpg);
+   background-position: center;
+   background-size: cover;
+}
+
+input{
+   margin: 8px 0px;
+   height: 40px;
+   padding: 7px;
+    }
+
+
+    button{
+      height: 35px;
+      margin: 5px;
+      background-color: burlywood;
+      border: none;
+      border-radius: 5px;
+      color: #333;
+   }
+
+   button:hover{
+      color: aquamarine;
+      background-color: lightcoral;
+   }
+
+   h1{
+      margin-top: -450px;
+      margin-right: -430px;
+      margin-left: 200px;
+      color:blue;
+      box-shadow:20px;
+      position: relative;
+    }
+
+    
+
+
+ 
